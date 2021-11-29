@@ -10,7 +10,7 @@
     "strict": true,
     "strictNullChecks": true,
     "skipLibCheck": true,
-    "sourceMap": true,
+    "sourceMap": true
   },
   "include": ["src/**/*.ts", "serverless.ts"],
   "exclude": [
