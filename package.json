@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:rahulp959/serverless-node-api-boilerplate.git",
   "author": "Rahul Parkar <rahul.a.parkar@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
 }
