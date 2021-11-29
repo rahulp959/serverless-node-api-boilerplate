@@ -1,0 +1,9 @@
+{
+  "name": "serverless-node-api-boilerplate",
+  "version": "1.0.0",
+  "description": "An opinionated boilerplate to make it quicker to spin up a Serverless Node API",
+  "main": "index.js",
+  "repository": "git@github.com:rahulp959/serverless-node-api-boilerplate.git",
+  "author": "Rahul Parkar <rahul.a.parkar@gmail.com>",
+  "license": "MIT"
+}
