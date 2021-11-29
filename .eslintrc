@@ -1,0 +1,26 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint",
+        "jest",
+        "unicorn"
+    ],
+    "extends": ["airbnb-base", "airbnb-typescript/base", "plugin:jest/recommended", "plugin:jest/style", "plugin:unicorn/recommended",],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "max-len": ["error", {
+            "code": 120
+        }],
+        "import/prefer-default-export": "off",
+        "unicorn/filename-case": [
+            "error",
+            {
+                "case": "camelCase"
+            }
+        ],
+        "unicorn/prefer-module": "off"
+    }
+  }
