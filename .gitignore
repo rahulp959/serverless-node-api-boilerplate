@@ -105,3 +105,6 @@ dist
 
 # Serverless directories
 .serverless
+
+# ESBuild
+.esbuild
